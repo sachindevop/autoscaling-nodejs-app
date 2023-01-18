@@ -19,7 +19,7 @@ cd /home/ec2-user
 # get source code from githubt
 git clone https://github.com/sachindevop/autoscaling-nodejs-app.git
 #get in project dir
-cd auto-scaling-nodejs-app
+cd autoscaling-nodejs-app
 #give permission
 sudo chmod -R 755 .
 #install node module
