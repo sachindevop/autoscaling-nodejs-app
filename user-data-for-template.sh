@@ -7,4 +7,4 @@ sudo yum install git -y
 git clone https://github.com/sachindevop/autoscaling-nodejs-app.git
 cd autoscaling-nodejs-app
 npm install
-node app.js
+node app.js > /opt/nodejs_app/node.log &
