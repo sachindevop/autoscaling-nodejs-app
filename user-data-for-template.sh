@@ -7,4 +7,6 @@ sudo yum install git -y
 git clone https://github.com/sachindevop/autoscaling-nodejs-app.git
 cd autoscaling-nodejs-app
 npm install
-nohup node app.js &
+sudo cp ./srever.sh /etc/systemd/system/appjs.service
+sudo systemctl enable appjs.service
+sudo systemctl start appjs.service
